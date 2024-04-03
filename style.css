@@ -1,0 +1,117 @@
+/* Réinitialisation des styles par défaut du navigateur */
+html, body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles pour l'en-tête */
+header {
+    background-color: #e9bd2d;
+    padding: 10px;
+    font-size: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 12px;
+    font-size: 100%; 
+}
+
+nav ul li a:hover {
+    background-color: #404bf1;
+    padding: 8px 12px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20%;
+}
+
+/* Styles pour le contenu principal */
+main {
+    padding: 20px;
+}
+
+/* Styles pour le slideshow */
+.slideshow-container {
+    position: relative;
+}
+
+.slideshow img {
+    width: 600px;
+    height: 800px;
+    display: none;
+}
+
+/* Styles pour la section de news */
+.news {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.news h2, .news p {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Styles pour le pied de page */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    
+}
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+}
+input [type="submit"] {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.service {
+    margin-bottom: 20px;
+}
+h2 {
+    color: #4caf50;
+    margin: 10px;
+    padding: 10px;
+}
+p {
+    margin-top: 10px;
+}
+.galerie {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-top: 20px;
+}
+img {
+    width: 100%;
+    height: auto;
+}
